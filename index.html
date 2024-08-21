@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinterio</title>
+    <!--Tailwind+DaisyUI CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                brightGreen: '#ABEF5F'
+              },
+              fontfamily:{
+                manrope: 'Manrope , san-serif',
+              }
+            }
+          }
+        }
+      </script>
+    <!--Fav Icon-->
+    <link rel="shortcut icon" href="./assets/residential.png" type="image/x-icon">
+      <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!--Font Awessome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="font-manrope">
+   <!--Header Section-->
+   <header>
+    <nav class="w-11/12 md:w-10/12 mx-auto flex justify-between">
+        <div class="flex">
+            <i class="fa-solid fa-arrow-up"></i>
+            <h3>Rinterio</h3>
+        </div>
+        <div>
+            <ul class="menu-horizontal rounded-box gap-2">
+                <li><a>Home</a></li>
+                <li><a>Service</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+        </div>
+        <div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <a role="button" class="btn">
+                <p>Book Consult</p>
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
+        <div>
+            <i class="fa-solid fa-bars"></i>
+        </div>
+     
+        
+    </nav>
+   </header>
+</body>
+</html>
